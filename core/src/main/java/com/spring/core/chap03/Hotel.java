@@ -1,5 +1,8 @@
 package com.spring.core.chap03;
 
+/**
+ * 수동 Bean 주입 (Spring)
+ */
 
 import lombok.NoArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;

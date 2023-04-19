@@ -7,6 +7,9 @@ import org.springframework.stereotype.Component;
 @Component
 public class EasternRestaurant implements Restaurant {
 
+//    @Autowired private Chef test;
+    // 필드에 주입을 하는 것은 테스트할 때 사용하고 거의 사용하지 않는다.
+
     // 쉐프
     private Chef chef;
 

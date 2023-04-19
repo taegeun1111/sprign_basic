@@ -5,7 +5,9 @@ import lombok.NoArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
-
+/**
+ * 자동 Bean 주입 (Spring)
+ */
 
 @Component  // 이 Hotel클래스의 객체는 스프링이 관리해라
 @NoArgsConstructor
